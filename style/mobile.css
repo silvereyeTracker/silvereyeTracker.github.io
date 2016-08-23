@@ -556,12 +556,10 @@
 		z-index: -11;
   	}
 
-	#gatewayMiniPic {
+	#beaconMiniPic {
 	  width: 64px;
-	  height: 87px;
+	  height: 66px;
 	  background-size: contain;
-
-	   position: relative;
 
 	  top: 21%;
 	  left: 37%;
@@ -1157,7 +1155,7 @@
 	  width: 90%;
 	}
 
-	#gatewayMiniPic {
+	#beaconMiniPic {
 	  top: 19%;
 	  left: 35%;
 	}
@@ -1374,7 +1372,7 @@
 	  margin-top: -30px;
 	}
 
-	#gatewayMiniPic {
+	#beaconMiniPic {
 	  top: 19%;
 	  left: 32%;
 	}
