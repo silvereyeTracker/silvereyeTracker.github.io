@@ -1,0 +1,1429 @@
+/* **************************************************************************
+
+// CSS for KKLabs' SilverEye Web
+// Author: SybiL
+
+// Style for web 
+
+************************************************************************** */
+body {
+  top: 0px;
+  background-image: url(../images/BG1.png);
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+/************** main ******************/
+/* 7 parts */
+#headerArea {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: 0px;
+}
+
+#sketchMapArea {
+  width: 100%;
+  height: 1350px;
+}
+
+#featureArea {
+  width: 100%;
+  height: 1140px;
+
+  background-color: #BBBDBF;
+}
+
+#instructionArea {
+  width: 100%;
+  height: 680px;
+  background-color: #03031A;
+
+  position: relative;
+  top: -2px;
+}
+
+#braceletArea {
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/BG2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  position: relative;
+  top: -2%;
+
+}
+
+#gatewayArea {
+  width: 100%;
+  height: 550px;
+
+  background-color:  #03031A;
+  position: relative;
+  top: -8%;
+}
+
+#footerArea {
+  width: 100%;
+  height: 150px;
+  background-color: #292929;
+
+  position: relative;
+  top: -11%;
+}
+
+#contactArea {
+  width: 100%;
+  height: 280px;
+  background: #85b4d3;
+  position: relative;
+  top: -10%;
+}
+
+
+/* typesetting */
+.sectionSpacing {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  width: 100%;
+  margin-top: 2px;
+}
+
+.rowA {
+  height: 70px;
+  background-color: #07061D;
+}
+
+.rowB {
+  height: 200px;
+}
+
+.rowC {
+  height: 573px;
+}
+
+.rowD {
+  height: 170px;
+  position: relative;
+  top: 76px;
+}
+
+.rowE {
+  position: relative;
+  top: 14px;
+  height: 463px;
+}
+
+.rowF {
+  height: 170px;
+  border: 1px solid #03031A;
+}
+
+.containerSpacingF {
+  position: relative;
+  top: 50px;
+}
+
+.rowG {
+  height: 433px;
+
+}
+
+.rowH {
+  height: 550px;
+}
+
+.rowI {
+  height: 546px;
+}
+
+.rowJ {
+  height: 150px;
+}
+
+.rowZ {
+  height: 280px;
+}
+
+
+.columnLeft {
+  width: 50%;
+  height: 92%;
+  position: relative;
+  float: left;
+  top: -2px;
+  /*border: 1px solid red;*/
+}
+
+.columnRight {
+  width: 50%;
+  height: 92%;
+  position: relative;
+  float: right;
+  top: -2px;
+  /*border: 1px solid blue;*/
+}
+
+/************** header area ******************/
+#logoMini {
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  width: 238px;
+  height: 60px;
+  background-size: contain;
+
+  position: absolute;
+  left: 100px;
+  top: 5px;
+}
+
+#contactBtn {
+  font-size: 20px;
+  color: white;
+
+  position: absolute;
+  right: 100px;
+  bottom: 10px;
+}
+
+#contactBtn:hover {
+  cursor: pointer;
+  color: #85b4d3;
+}
+#contactBtn:active {
+  color: white;
+  opacity: 0.8;
+}
+
+.contactBtnText {
+  color: white;
+}
+/************** sketch map area ******************/
+.titleText {
+  font-size: 46px;
+  color: white;
+  
+  position: relative;
+  left: 100px;
+  margin-top: 60px;
+}
+
+.explanationText {
+  font-size: 22px;
+  color: white;
+
+  position: relative;
+  left: 100px;
+  margin-top: 10px;
+}
+
+#map3DPic {
+  background-image: url(../images/map3D.png);
+  background-repeat: no-repeat;
+  width: 1080px;
+  height: 672px;
+  background-size: contain;
+
+  position: relative;
+  margin-top: -50px;
+  float: left;
+  left: 0px;
+
+  z-index: 3;
+}
+
+/* left column */
+#gatewayInMap  {
+  width: 434px;
+  height: 350px;
+
+  position: relative;
+  float: left;
+  margin-top: 100px;
+  left: 110px;
+
+  z-index: 5;
+}
+
+#gatewayMiniPic {
+  background-image: url(../images/gatewayMini.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 136px;
+  background-size: contain;
+
+  position: relative;
+  float: left;
+  top: 0px;
+
+}
+
+#gatewayCaption {
+  position: relative;
+  float: right;
+  right: 52px;
+  margin-top: 50px;
+
+}
+
+.captionTitle {
+  font-size: 34px;
+  color: white;
+  text-align: left;
+
+  position: relative;
+}
+
+.captionSubTitle {
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+.captionDescription {
+  font-size: 14px;
+  color: white;
+  text-align: left;
+  /*word-wrap: break-word;
+  word-break: break-all;*/
+  width: 100%;
+}
+
+.gatewayMiniText {
+  position: absolute;
+  margin-top: 170px;
+}
+
+.gatewaySpotA {
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  background-color: #ffb03f;
+  border: 2px solid white;
+
+  position: absolute;
+  margin-top: -446px;
+  margin-left: 82px;
+
+  z-index: 5;
+}
+
+.decoCircle1 {
+     display: block;
+
+      width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    border-radius: 25px;
+    border: 2px white solid;
+  
+    position: relative;
+    top: -19px;
+    left: -19px;
+    margin: 0 auto;
+  
+    opacity: 0.5;
+
+    z-index: 11;
+  }
+
+  .decoCircle2 {
+     display: block;
+
+      width: 80px;
+    height: 80px;
+    background-size: 80px 80px;
+    border-radius: 40px;
+    border: 3px white solid;
+  
+    position: relative;
+    top: -84px;
+    left: -33px;
+    margin: 0 auto;
+        
+        opacity: 0.3;
+    z-index: 11;
+  }
+
+  .decoCircle3 {
+     display: block;
+
+      width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    border-radius: 25px;
+    border: 2px white solid;
+  
+    position: relative;
+    top: -17px;
+    left: -16px;
+    margin: 0 auto;
+
+    opacity: 0.5;
+
+    z-index: 11;
+  }
+
+  .decoCircle4 {
+     display: block;
+
+      width: 80px;
+    height: 80px;
+    background-size: 80px 80px;
+    border-radius: 40px;
+    border: 3px white solid;
+  
+    position: relative;
+    top: -82px;
+    left: -31px;
+    margin: 0 auto;
+        
+      opacity: 0.3;
+    z-index: 11;
+  }
+
+.captionLineA  {
+  width: 1px;
+  height: 130px;
+  background-size: 1px 130px;
+  background-color: white;
+
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 135px;
+
+  z-index: 5;
+}
+
+.captionLineAA  {
+  display: block;
+
+  width: 45px;
+  height: 1px;
+  background-size: 45px 1px;
+  background-color: white;
+
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 90px;
+
+  z-index: 5;
+}
+
+.captionLineAAA  {
+  display: block;
+
+  width: 1px;
+  height: 342px;
+  background-size: 1px 342px;
+  background-color: white;
+
+  position: absolute;
+  margin-top: -422px;
+  margin-left: 90px;
+
+  z-index: 5;
+}
+
+/* right column */
+#braceletInMap {
+  width: 644px;
+  height: 660px;
+
+  position: relative;
+  float: right;
+  margin-top: -120px;
+
+  right: 110px;
+
+  z-index: 5;
+}
+
+#braceletMiniPic {
+  background-image: url(../images/braceletMini.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 517px;
+  background-size: contain;
+
+  position: relative;
+  float: left;
+  top: 18px;
+  left: 80px;
+}
+
+#braceletCaption {
+  position: relative;
+  float: left;
+  margin-top: 130px;
+  margin-left: -432px;
+}
+
+#alertCaption {
+  position: relative;
+  float: right;
+  right: 60px;
+  margin-top: 332px;
+}
+
+.alertMiniText {
+  position: absolute;
+  margin-top: 32px;
+}
+
+
+.braceletSpotB {
+  width: 18px;
+  height: 18px;
+  background-size: 18px 18px;
+  border-radius: 9px;
+  background-color: white;
+  
+  position: absolute;
+  margin-top: -240px;
+  margin-left: -128px;
+
+  z-index: 5;
+}
+
+.braceletSpotC {
+  width: 14px;
+  height: 14px;
+  background-size: 14px 14px;
+  border-radius: 7px;
+  background-color: #00adef;
+  
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 2px;
+
+  z-index: 7;
+}
+
+.captionLineB  {
+  width: 1px;
+  height: 344px;
+  background-size: 1px 344px;
+  background-color: white;
+
+  position: absolute;
+  margin-top: -214px;
+  margin-left: -120px;
+
+  z-index: 5;
+}
+
+.alertSpotD {
+  width: 18px;
+  height: 18px;
+  background-size: 18px 18px;
+  border-radius: 9px;
+  background-color: white;
+
+  position: absolute;
+  margin-top: -370px;
+  margin-left: 226px;
+
+  z-index: 5;
+}
+
+.alertSpotE {
+  width: 14px;
+  height: 14px;
+  background-size: 14px 14px;
+  border-radius: 7px;
+  background-color: #ed2128;
+  
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 2px;
+
+  z-index: 7;
+}
+
+.captionLineD  {
+  width: 1px;
+  height: 602px;
+  background-size: 1px 602px;
+  background-color: white;
+
+  position: absolute;
+  margin-top: -346px;
+  margin-left: 235px;
+
+  z-index: 7;
+  opacity: 0.5;
+}
+
+.captionLineE {
+  width: 1px;
+  height: 70px;
+  background-size: 1px 70px;
+  background-color: white;
+
+  position: absolute;
+  margin-top: 285px;
+  margin-left: 235px;
+
+  z-index: 7;
+  opacity: 0.5;
+}
+
+.captionLineF {
+  width: 55px;
+  height: 1px;
+  background-size: 55px 1px;
+  background-color: white;
+
+  position: absolute;
+  margin-top: 355px;
+  margin-left: 235px;
+
+  z-index: 7;
+  opacity: 0.6;
+}
+
+  .captionMobileOnly {
+    display: none;
+  }
+
+  .braceletSpotB2 {
+    display: none;
+  }
+
+  .braceletSpotC2 {
+    display: none;
+  }
+
+  .alertSpotD2 {
+    display: none;
+  }
+
+  .alertSpotE2 {
+    display: none;
+  }
+
+  .braceletDecoLine01 {
+    display: none;
+  }
+  
+  .gatewayDecoLine01 {
+    display: none;
+    }
+
+  .bluethoothCircle5 {
+    display: none;
+  }
+
+  .bluethoothCircle6 {
+    display: none;
+  }
+
+
+  .bluethoothCircle7 {
+    display: none;
+  }
+
+  .bluethoothCircle8 {
+    display: none;
+  }
+
+/************** feature & instruction area ******************/
+.subTitleText {
+  font-size: 38px;
+  text-align: center;
+
+  position: relative;
+  margin: 0 auto;
+  margin-top: 52px;
+}
+
+.columnA {
+  width: 30%;
+  height: 100%;
+
+  position: relative;
+  float: left;
+  margin-left: 3%;
+}
+
+.columnB{
+  width: 30%;
+  height: 100%;
+
+  position: relative;
+  float: left;
+  margin-left: 2%;
+}
+
+  .featureDecoLine01 {
+      display: none;
+    }
+
+  .instructionDecoLine01 {
+       display: none;
+    }
+
+.iconCircle {
+  width: 160px;
+  height: 160px;
+  background-size: 160px 160px;
+  border-radius: 80px;
+  
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.iconBox {
+  width: 90px;
+  height: 90px;
+  background-size: 90px 90px;
+
+  position: relative;
+  margin: 0 auto;
+  top: 35px;
+}
+
+#liveUserFlowIcon {
+  background-image: url(../images/liveUserFlow_icon.png);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
+
+#emergencyCallIcon {
+  background-image: url(../images/emergencyCall_icon.png);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
+
+#lostChildIcon {
+  background-image: url(../images/lostChild_icon.png);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
+
+#healthMonitorIcon {
+  background-image: url(../images/healthMonitor_icon.png);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
+
+#zoneAlertIcon {
+  background-image: url(../images/zoneAlert_icon.png);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
+
+#qualityServiceIcon {
+  background-image: url(../images/qualityService_icon.png);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
+
+#realTimeDataIcon {
+  background-image: url(../images/realTimeData_icon.png);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
+
+#optimizedAlgorithmIcon {
+  background-image: url(../images/optimizedAlgorithm_icon.png);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
+
+#powerfulAnalyticsIcon {
+  background-image: url(../images/powerfulAnalytics_icon.png);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+}
+
+.iconTitleText  {
+  font-size: 26px;
+  text-align: center;
+
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.iconDescription {
+  font-size: 14px;
+  text-align: left;
+/*  word-wrap: break-word;
+  word-break: break-all;*/
+  width: 60%;
+
+  -ms-hyphens: auto; 
+  -webkit-hyphens: auto; 
+  -moz-hyphens: auto; 
+  hyphens: auto; 
+
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.featureCircle {
+  background-color: #85b4d3;
+}
+
+.featureText {
+  color: #4D4C4C;
+}
+
+.featureTextLight {
+  color: #6D6E70;
+}
+
+.instructionCircle {
+  background-color: #fcb040;
+}
+
+.instructionText {
+  color: #FAAF40;
+}
+
+/************** bracelet area ******************/
+#braceletMainPic {
+  background-image: url(../images/braceletMain.png);
+  background-repeat: no-repeat;
+  width: 496px;
+  height: 550px;
+  background-size: contain;
+  
+  position: relative;
+  margin-top: 2px;
+  margin-left: 0px;
+}
+
+    .braceletDecoLine01 {
+      display: none;
+    }
+
+.braceletTitleText {
+  font-size: 38px;
+  text-align: left;
+  color: white;
+
+  position: relative;
+  margin: 0 auto;
+  margin-top: 110px;
+  margin-left: -100px;
+}
+
+.braceletDescription {
+  font-size: 14px;
+  text-align: left;
+/*  word-wrap: break-word;
+  word-break: break-all;*/
+  color: white;
+
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
+  margin-left: -100px;
+}
+
+/************** gateway area ******************/
+#gatewayMainPic {
+  background-image: url(../images/gatewayMain.png);
+  background-repeat: no-repeat;
+  width: 217px;
+  height: 300px;
+  background-size: contain;
+  
+  position: relative;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-right: 320px;
+}
+
+.gatewayTitleText {
+  font-size: 38px;
+  text-align: left;
+  color: white;
+
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: -100px;
+}
+
+.gatewayDescription {
+  font-size: 14px;
+  text-align: justify;
+  color: white;
+
+  width: 100%;
+  position: relative;
+  margin-top: 45px;
+  margin-left: -100px;
+}
+
+/************** contact area ******************/
+.contactStuff {
+  display: block;
+
+  width: 80%;
+  height: 70%;
+
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+
+}
+
+.contactTitleText {
+  font-size: 38px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contactDescription {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#contactUsMainBtn {
+  width: 320px;
+  height: 44px;
+  background-size: 320px 44px;
+  border-radius: 5px;
+  background-color: #fcb040;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 1px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 42px;
+  padding: 6px;
+}
+
+#contactUsMainBtn:hover {
+  cursor: pointer;
+  background-color: #f7a42b;
+}
+#contactUsMainBtn:active {
+  background-color: #fcb040;
+  opacity: 0.8;
+}
+
+.mailNotice {
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+  padding-top: 16px;
+}
+
+/* form open */
+.contactForm {
+  display: none;
+
+  width: 100%;
+  height: 590px;
+  top: 130px;
+  background-color:  #a6dab5;
+  position: relative;
+}
+
+.formBorder {
+  display: none;
+
+  border: 1px solid gray;
+  width: 800px;
+  height: 500px;
+  background-size: 800px 500px;
+
+  position: relative;
+  margin: 0 auto;
+  top: -80px;
+}
+
+.formTitle {
+  font-size: 38px;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  background-color: #85b4d3;
+  width: 320px;
+  height: 60px;
+  position: relative;
+  top: -30px;
+  margin: 0 auto;
+
+  z-index: 3;
+
+}
+
+#sendMailBtn {
+  width: 180px;
+  height: 40px;
+  background-size: 180px 40px;
+  border-radius: 5px;
+  background-color: #fcb040;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 1px;
+  
+  position: relative;
+  float: right;
+  padding: 6px;
+  right: 10px;
+  z-index: 23;
+}
+
+#sendMailBtn:hover {
+  cursor: pointer;
+  background-color: #f7a42b;
+}
+#contactUsMainBtn:active {
+  background-color: #fcb040;
+  opacity: 0.8;
+}
+
+
+#cancelMailBtn {
+  width: 180px;
+  height: 40px;
+  background-size: 180px 40px;
+  border-radius: 5px;
+  background-color: #6b6e71;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 1px;
+  position: relative;
+  float: left;
+  padding: 6px;
+  left: 10px;
+  z-index: 23;
+}
+
+#cancelMailBtn:hover {
+  cursor: pointer;
+  background-color: #5d5e60;
+}
+#cancelMailBtn:active {
+  background-color: #6b6e71;
+  opacity: 0.8;
+}
+
+.formSection  {
+  width: 80%;
+  height: 73%;
+  background-size: 80% 73%;
+  background-color: #e8e8e8;
+  
+  border-radius: 5px;
+
+  position: relative;
+  margin: 0 auto;
+  top: -12px;
+
+  z-index: 11;
+}
+
+.mailBtnSection {
+  width: 80%;
+  height: 10%;
+  background-size: 80% 10%;
+
+
+  position: relative;
+  margin: 0 auto;
+  top: 5px;
+
+}
+
+.formRow0 {
+  width: 100%;
+  height: 6%;
+  background-size: 100% 6%;
+  background-color: #fcb040;
+  border: 1px solid white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.formRow1 {
+  width: 100%;
+  height: 16%;
+  background-size: 100% 16%;
+  /*border: red solid 1px;*/
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.formRow2 {
+  width: 100%;
+  height: 46%;
+  background-size: 100% 46%;
+  /*border: red solid 1px;*/
+
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.formColumnLeft {
+  width: 30%;
+  height: 100%;
+  background-size: 30% 100%;
+  /*border: blue solid 1px;*/
+
+  position: relative;
+  float: left;
+  top: 0px;
+}
+
+.formColumnRight {
+  width: 70%;
+  height: 100%;
+  background-size: 70% 100%;
+  /*border: blue solid 1px;*/
+
+  position: relative;
+  float: right;
+  top: 0px;
+}
+
+.formTextLeft {
+  font-size: 18px;
+  color: gray;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+
+  /*border: yellow 1px solid;*/
+
+  position: relative;
+  margin: 0 auto;
+  left: 0px;
+  top: 0px;
+  padding-top: 9%;
+  padding-left: 16%;
+
+}
+
+.formTextRight {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+
+  /*border: yellow 1px solid;*/
+
+  position: relative;
+  margin: 0 auto;
+  left: 0px;
+  top: 0px;
+  padding: 3%;
+}
+
+#userMessage {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  border: none;
+  border-radius: 5px;
+  
+  position: relative;
+  margin: 0 auto;
+  left: 0px;
+  top: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.inputText {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  border: none;
+
+  font-size: 18px;
+  color: gray;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.inputText.mouseover{
+  border: black 1px solid;
+}
+
+.formAlertPopUp {
+  display: none;
+
+  width: 25%;
+
+  position: relative;
+  margin: 0 auto;
+
+/*  border: red solid 1px;*/
+
+
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.7;
+  z-index: 99;
+
+}
+
+#alertBox01 {
+  position: absolute;
+  
+  top: -130px;
+  right: 16%;
+}
+
+#alertBox02 {
+  position: absolute;
+  
+  top: -130px;
+  right: 16%;
+}
+
+#alertBox03 {
+  position: absolute;
+  
+  top: -130px;
+  right: 16%;
+}
+
+#alertBox04 {
+
+  position: absolute;
+  
+  top: -130px;
+  right: 16%;
+}
+#alertBox05 {
+  position: absolute;
+  
+  top: -130px;
+  right: 16%;
+}
+
+#alertBox06 {
+  position: absolute;
+  
+  top: -130px;
+  right: 16%;
+}
+#alertBox07 {
+  position: absolute;
+  
+  top: -30px;
+  right: 30%;
+}
+
+/*
+#alertText01 {
+  display: none;
+
+}
+
+#alertText02 {
+  display: none;
+  
+}
+
+#alertText03 {
+  display: none;
+  
+}
+
+#alertText04 {
+  display: none;
+  
+}
+
+#alertText05 {
+  display: none;
+  
+}
+
+#alertText06 {
+  display: none;
+  
+}*/
+
+/************** footer area ******************/
+.footerStuff {
+  width: 420px;
+  height: 10%;
+  position: relative;
+  margin: 0 auto;
+  bottom: -90px;
+}
+
+#kklabsLogo {
+  background-image: url(../images/kklabsLogo.png);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 73px;
+  background-size: contain;
+
+  position: relative;
+  margin-top: 90px;
+  margin-left: 100px;
+}
+
+#iBeaconLogo {
+  background-image: url(../images/iBeaconLogo.png);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+
+  position: relative;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+#licenseText {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: white;
+
+  position: relative;
+  margin-top: -14px;
+  margin-left: 185px;
+
+  opacity: 0.7;
+}
+
+#copyrightText {
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 1px;
+  color: white;
+
+  position: relative;
+  float: right;
+  margin-top: 14px;
+  margin-left: 100px;
+
+  opacity: 0.7;
+}
+
+#copyrightTextRight {
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 1px;
+  color: white;
+
+  position: relative;
+  margin-top: -22px;
+
+  opacity: 0.7;
+}
+
+#silvereyeLogo {
+  background-image: url(../images/silvereyeLogo.png);
+  background-repeat: no-repeat;
+  width: 119px;
+  height: 36px;
+  background-size: contain;
+
+  position: relative;
+  margin-top: 0px;
+}
+
+#policyText {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+  text-align: right;
+
+  position: relative;
+  float: right;
+  margin-right: 100px;
+  margin-top: 58px;
+
+  opacity: 0.7;
+}
+
+#policyTextLeft {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+  text-align: left;
+
+  position: relative;
+  float: left;
+  margin-left: 100px;
+  margin-top: 240px;
+
+  opacity: 0.7;
+}
+
+#googlePlus {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+  text-align: right;
+
+  position: relative;
+  float: right;
+  margin-right: 24px;
+  margin-top: 58px;
+
+  opacity: 0.7;
+}
+
+#googlePlusLeft {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+  text-align: left;
+
+  position: relative;
+  float: left;
+  margin-left: 24px;
+  margin-top: 240px;
+
+  opacity: 0.7;
+}

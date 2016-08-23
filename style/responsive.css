@@ -1,0 +1,1072 @@
+/* **************************************************************************
+
+// CSS for KKLabs' SilverEye Web
+// Author: SybiL
+
+// Style for responsive
+
+************************************************************************** */
+@media only screen and (max-width: 1366px) {}
+
+
+@media only screen and (max-width: 1300px) {
+	
+	#braceletArea {
+	  height: 510px;
+	  top: -4%;
+	}
+
+	#gatewayArea {
+	  height: 510px;
+	  top: -10%;
+	}
+
+	#footerArea {
+	  top: -13%;
+	}
+
+	#contactArea {
+	  top: -12%;
+	}
+
+	#footerLeft {
+		position: absolute;
+		left: -20px;
+	}
+
+
+	#footerRight {
+		position: absolute;
+		right: -20px;
+	}
+
+	.rowH {
+	  height: 510px;
+	}
+
+	.rowI {
+	  height: 510px;
+	}
+
+	.columnLeft {
+	  height: 88%;
+	}
+
+	.columnRight {
+	  height: 88%;
+	}
+
+	/************** header area ******************/
+	#logoMini {
+	  background-image: url(../images/logo.png);
+	  background-repeat: no-repeat;
+	  width: 230px;
+	  height: 58px;
+	  background-size: contain;
+
+	  position: absolute;
+	  left: 80px;
+	  top: 5px;
+	}
+
+	#contactBtn {
+	  font-size: 19px;
+	  color: white;
+
+	  position: absolute;
+	  right: 80px;
+	  bottom: 9px;
+	}
+
+	/************** sketch map area ******************/
+	.titleText {
+	  font-size: 42px;
+	  color: white;
+	  
+	  position: relative;
+	  left: 80px;
+	  margin-top: 60px;
+	}
+
+	.explanationText {
+	  font-size: 20px;
+	  color: white;
+
+	  position: relative;
+	  left: 80px;
+	  margin-top: 10px;
+	}
+
+	#map3DPic {
+	  width: 1020px;
+	  height: 620px;
+	  background-size: contain;
+	}
+
+	/* sketch map area left column */
+	#gatewayInMap {
+		width: 412px;
+  		height: 350px;
+		margin-top: 80px;
+		left: 90px;
+	}
+
+	#gatewayCaption {
+	  position: relative;
+	  float: right;
+	  margin-top: 50px;
+	}
+
+	.captionTitle {
+	  font-size: 32px;
+	  color: white;
+	  text-align: left;
+
+	  position: relative;
+	}
+
+	.captionSubTitle {
+	  font-size: 18px;
+	  color: white;
+	  text-align: left;
+	}
+
+	.captionDescription {
+	  font-size: 13px;
+	  color: white;
+	  text-align: justify;
+	}
+
+	.gatewayMiniText {
+	  position: absolute;
+	  margin-top: 170px;
+	}
+
+
+	/* sketch map area right column */
+	#braceletInMap {
+	  width: 520px;
+	  height: 537px;
+
+	  position: relative;
+	  float: right;
+	  margin-top: -120px;
+	  right: 90px;
+
+	  z-index: 5;
+	}
+
+	#braceletMiniPic {
+	  top: 18px;
+	  left: -38px;
+	}
+
+	#braceletCaption {
+	  position: relative;
+	  float: left;
+	  margin-top: 138px;
+	  left: -86px;
+	}
+
+	#alertCaption {
+	  position: relative;
+	  float: right;
+	  margin-top: -140px;
+	}
+
+	.alertMiniText {
+	  position: absolute;
+	  margin-top: 32px;
+	}
+
+	.braceletSpotB {
+	  margin-top: -214px;
+	  margin-left: -216px;
+	}
+
+	.captionLineB  {
+	  width: 1px;
+	  height: 328px;
+	  background-size: 1px 328px;
+	  margin-top: -190px;
+	  margin-left: -208px;
+	}
+	
+	.alertSpotD {
+	  margin-top: -340px;
+	  margin-left: 110px;
+	}
+
+	.captionLineD  {
+	  width: 1px;
+	  height: 570px;
+	  background-size: 1px 570px;
+
+	  margin-top: -314px;
+	  margin-left: 118px;
+	}
+
+	.captionLineE {
+	  width: 1px;
+	  height: 115px;
+	  background-size: 1px 115px;
+
+	  margin-top: 285px;
+  	  margin-left: 118px;
+	}
+
+	.captionLineF  {
+		width: 80px;
+	    height: 1px;
+	    background-size: 80px 1px;
+
+		margin-top: 400px;
+		margin-left: 118px;
+	}
+
+	.gatewaySpotA {
+
+	  margin-top: -422px;
+	  margin-left: 88px;
+	}
+
+	.captionLineAA  {
+	  display: block;
+
+	  width: 40px;
+	  height: 1px;
+	  background-size: 40px 1px;
+	  margin-top: -80px;
+	  margin-left: 96px;
+	}
+
+	.captionLineAAA  {
+	  display: block;
+
+	  width: 1px;
+	  height: 320px;
+	  background-size: 1px 320px;
+	  margin-top: -400px;
+	  margin-left: 96px;
+	}
+
+	/************** font changes ******************/
+	.subTitleText {
+	  font-size: 36px;
+	}
+
+	.iconTitleText  {
+	  font-size: 24px;
+	  margin-top: 30px;
+	}
+
+	.iconDescription {
+	  font-size: 13px;
+	}
+
+	.braceletTitleText {
+	  font-size: 36px;
+	  margin-left: -80px;
+	  margin-top: 100px;
+	}
+
+
+	.braceletDescription {
+	  font-size: 13px;
+	  margin-left: -80px;
+	  margin-top: 30px;
+	}
+
+	.gatewayTitleText {
+	  font-size: 36px;
+	  margin-left: -80px;
+	  margin-top: 110px;
+
+	}
+
+	.gatewayDescription {
+	  font-size: 13px;
+	  margin-left: -80px;
+	  margin-top: 30px;
+	}
+
+	/************** bracelet area ******************/
+	#braceletMainPic {
+	  width: 460px;
+	  height: 510px;
+	  background-size: contain;
+	}
+
+	/************** gateway area ******************/
+	#gatewayMainPic {
+	  margin-right: 240px;
+
+	}
+/*
+	#silvereyeLogo {
+	  width: 420px;
+	  height: 127px;
+	  background-size: contain;
+	  margin-top: 56px;
+	}*/
+
+/************** contact area ******************/
+	.contactTitleText {
+	  font-size: 36px;
+	  padding-top: 25px;
+	}
+	.contactDescription {
+	  font-size: 17px;
+	}
+	#contactUsMainBtn {
+	  width: 300px;
+	  height: 44px;
+	  background-size: 300px 44px;
+ 
+	  font-size: 22px;
+	  padding: 8px;
+	}
+	.mailNotice {
+	  font-size: 17px;
+	}
+	
+
+	.formTitle {
+	  font-size: 36px;
+	}
+
+	.formSection  {
+	  width: 76%;
+	  height: 70%;
+	  background-size: 76% 70%;
+	  top: -18px;
+	}
+
+	#sendMailBtn {
+	  width: 160px;
+	  height: 40px;
+	  background-size: 160px 40px;
+	  
+	  font-size: 22px;
+	  right: 18px;
+	}
+
+	#cancelMailBtn {
+	  width: 160px;
+	  height: 40px;
+	  background-size: 160px 40px;
+	  border-radius: 5px;
+	  
+	  font-size: 22px;
+	  left: 18px;
+	}
+
+	.formTextLeft {
+	  font-size: 16px;
+
+	  padding-left: 20%;
+	}
+}
+
+
+@media only screen and (max-width: 1200px) {
+		
+	#braceletArea {
+	  height: 500px;
+	  top: -2%;
+	}
+
+	#gatewayArea {
+	  height: 500px;
+	  top: -12%;
+	}
+
+	#footerArea {
+	  top: -16%;
+	}
+
+	#contactArea {
+	  top: -14%;
+	}
+
+	.rowH {
+	  height: 500px;
+	}
+
+	.rowI {
+	  height: 500px;
+	}
+
+	#footerLeft {
+		position: absolute;
+		left: -40px;
+	}
+
+
+	#footerRight {
+		position: absolute;
+		right: -40px;
+	}
+
+	/************** header area ******************/
+	#logoMini {
+	  background-image: url(../images/logo.png);
+	  background-repeat: no-repeat;
+	  width: 230px;
+	  height: 58px;
+	  background-size: contain;
+
+	  position: absolute;
+	  left: 60px;
+	  top: 5px;
+	}
+
+	#contactBtn {
+	  font-size: 18px;
+	  color: white;
+
+	  position: absolute;
+	  right: 60px;
+	  bottom: 9px;
+	}
+
+	/************** sketch map area ******************/
+	.titleText {
+	  font-size: 40px;
+	  color: white;
+	  
+	  position: relative;
+	  left: 60px;
+	  margin-top: 60px;
+	}
+
+	.explanationText {
+	  font-size: 18px;
+	  color: white;
+
+	  position: relative;
+	  left: 60px;
+	  margin-top: 10px;
+	}
+
+	#map3DPic {
+	  width: 960px;
+	  height: 597px;
+	  background-size: contain;
+	}
+
+	/* sketch map area left column */
+	#gatewayInMap {
+		width: 380px;
+		height: 380px;
+		margin-top: 80px;
+		left: 70px;
+	}
+
+	#gatewayMiniPic {
+	  width: 90px;
+	  height: 123px;
+	  background-size: contain;
+	}
+
+	#gatewayCaption {
+	  position: relative;
+	  float: right;
+	  margin-top: 48px;
+	  right: 38px;
+
+	}
+
+	.captionTitle {
+	  font-size: 30px;
+	  color: white;
+	  text-align: left;
+
+	  position: relative;
+	}
+
+	.captionSubTitle {
+	  font-size: 17px;
+	  color: white;
+	  text-align: left;
+	}
+
+	.captionDescription {
+	  font-size: 12px;
+	  color: white;
+	  text-align: justify;
+	}
+
+	.gatewayMiniText {
+	  position: absolute;
+	  margin-top: 170px;
+	}
+
+	.gatewaySpotA {
+	    margin-top: -437px;
+  		margin-left: 123px;
+	}
+
+	.captionLineA  {
+	  width: 1px;
+	  height: 458px;
+	  background-size: 1px 458px;
+	  margin-top: -412px;
+	  margin-left: 131px;
+	}
+
+	.captionLineAA  {
+	  display: none;
+	}
+
+	.captionLineAAA  {
+	  display: none;
+	}
+
+	/* sketch map area right column */
+	#braceletInMap {
+	  width: 460px;
+	  height: 475px;
+
+	  position: relative;
+	  float: right;
+	  margin-top: -140px;
+	  right: 70px;
+
+	  z-index: 5;
+	}
+	
+	#braceletMiniPic {
+	  top: 18px;
+	  left: -54px;
+	}
+
+	#braceletCaption {
+	  position: relative;
+	  float: left;
+	  margin-top: 126px;
+	  left: -88px;
+	}
+
+	#alertCaption {
+	  position: relative;
+	  float: right;
+	  margin-top: -95px;
+	  right: 42px;
+	}
+
+	.alertMiniText {
+	  position: absolute;
+	  margin-top: 32px;
+	}
+
+	.braceletSpotB {
+	   margin-top: -214px;
+	  margin-left: -216px;
+	}
+
+	.captionLineB  {
+	  width: 1px;
+	  height: 314px;
+	  background-size: 1px 314px;
+	  margin-top: -188px;
+	  margin-left: -208px;
+	}
+	
+	.alertSpotD {
+	  margin-top: -328px;
+	  margin-left: 94px;
+	}
+
+	.captionLineD  {
+	  width: 1px;
+	  height: 562px;
+	  background-size: 1px 562px;
+
+	  margin-top: -304px;
+	  margin-left: 102px;
+	}
+
+	.captionLineE {
+	  width: 1px;
+	  height: 156px;
+	  background-size: 1px 156px;
+
+	  margin-top: 285px;
+  	  margin-left: 102px;
+	}
+	
+	.captionLineF  {
+		width: 66px;
+	    height: 1px;
+	    background-size: 66px 1px;
+
+		margin-top: 440px;
+		margin-left: 102px;
+	}
+
+	/************** font changes ******************/
+	.subTitleText {
+	  font-size: 34px;
+	}
+
+	.iconTitleText  {
+	  font-size: 22px;
+	}
+
+	.iconDescription {
+	  font-size: 12px;
+	}
+
+	.braceletTitleText {
+	  font-size: 34px;
+	  margin-left: -60px;
+      margin-top: 100px;
+	}
+
+	.braceletDescription {
+	  font-size: 12px;
+	  margin-left: -60px;
+	  margin-top: 4%;
+	}
+
+	.gatewayTitleText {
+	  font-size: 34px;
+	  margin-left: -60px;
+      margin-top: 100px;
+	}
+
+	.gatewayDescription {
+	  font-size: 12px;
+	  margin-left: -60px;
+	  margin-top: 4%;
+	}
+
+	/************** bracelet area ******************/
+	#braceletMainPic {
+	  width: 410px;
+	  height: 455px;
+	  background-size: contain;
+	}
+
+	/************** gateway area ******************/
+	#gatewayMainPic {
+	  width: 180px;
+	  height: 248px;
+	  background-size: contain;
+	  
+	  position: relative;
+	  margin: 0 auto;
+	  margin-top: 120px;
+	  margin-right: 180px;
+	}
+
+/*	#silvereyeLogo {
+	  width: 400px;
+	  height: 121px;
+	  background-size: contain;
+
+	  position: relative;
+	  float: right;
+	  margin-top: 60px;
+	  margin-right: 100px;
+	}*/
+/************** contact area ******************/
+	
+	.contactTitleText {
+	  font-size: 34px;
+	  padding-top: 30px;
+	}
+	.contactDescription {
+	  font-size: 16px;
+	}
+	#contactUsMainBtn {
+	  width: 280px;
+	  height: 44px;
+	  background-size: 280px 44px;
+ 
+	  font-size: 20px;
+	  padding: 10px;
+	}
+	.mailNotice {
+	  font-size: 16px;
+	}
+
+	/* form open */
+	.formTitle {
+	  font-size: 34px;
+	}
+
+	.formBorder {
+	  width: 750px;
+	  height: 480px;
+	  background-size: 750px 480px;
+	  top: -80px;
+	}
+
+	.formSection  {
+	  width: 72%;
+	  height: 70%;
+	  background-size: 72% 70%;
+	  top: -22px;
+	}
+
+	#sendMailBtn {
+	  width: 140px;
+	  height: 40px;
+	  background-size: 140px 40px;
+	  
+	  font-size: 20px;
+	  right: 32px;
+	}
+
+	#cancelMailBtn {
+	  width: 140px;
+	  height: 40px;
+	  background-size: 140px 40px;
+	  
+	  font-size: 20px;
+	  left: 32px;
+	}
+
+	.formTextLeft {
+	  font-size: 14px;
+
+	  padding-left: 20%;
+	}
+}
+
+
+
+@media only screen and (max-width: 980px) {
+
+	.rowD {
+	  margin-top: 60px;
+	}
+
+	.rowE {
+	  position: relative;
+	  margin-top: -50px;
+	}
+
+	.rowG {
+	  position: relative;
+	  margin-top: -45px;
+	}
+
+	.iconTitleText  {
+	  width: 112%;
+	  left: -6%;
+	}
+
+	.iconDescription {
+	  width: 80%;
+	}
+
+	#footerLeft {
+		width: 60%;
+		position: absolute;
+		left: -60px;
+	}
+
+
+	#footerRight {
+		position: absolute;
+		right: -60px;
+	}
+
+	/************** header area ******************/
+	#logoMini {
+	  width: 224px;
+	  height: 56px;
+	  background-size: contain;
+
+	  left: 40px;
+	}
+
+	#contactBtn {
+	  font-size: 17px;
+	  right: 40px;
+	  bottom: 10px;
+	}
+
+	/************** sketch map area ******************/
+	.titleText {
+	  font-size: 38px;
+	  left: 40px;
+	}
+
+	.explanationText {
+	  font-size: 17px;
+	  left: 40px;
+	}
+
+	#map3DPic {
+	  width: 820px;
+	  height: 510px;
+	  background-size: contain;
+	}
+
+	/* sketch map area left column */
+	#gatewayInMap {
+	  width: 360px;
+	  height: 360px;
+	  left: 50px;
+	}
+
+	#gatewayMiniPic {
+	  width: 90px;
+	  height: 123px;
+	  background-size: contain;
+	}
+
+	#gatewayCaption {
+	  margin-top: 54px;
+	  right: 52px;
+	}
+
+	.captionTitle {
+	  font-size: 28px;
+	}
+
+	.captionSubTitle {
+	  font-size: 16px;
+	}
+
+	.captionDescription {
+	  font-size: 11px;
+	}
+
+	.gatewaySpotA {
+	  margin-top: -468px;
+ 	 margin-left: 102px;
+	}
+
+	.captionLineA  {
+	  width: 1px;
+	  height: 496px;
+	  background-size: 1px 496px;
+	  margin-top: -442px;
+	  margin-left: 110px;
+	}
+
+	.captionLineAA  {
+	  display: none;
+	}
+
+	.captionLineAAA  {
+	  display: none;
+	}
+	
+	/* sketch map area right column */
+	#braceletInMap {
+	  width: 380px;
+	  height: 392px;
+	  margin-top: -240px;
+	  right: 50px;
+	}
+
+	#braceletMiniPic {
+	  top: 18px;
+	  left: -20px;
+	}
+
+	#braceletCaption {
+	  position: relative;
+	  float: left;
+	  margin-top: 180px;
+	  left: -24px;
+	}
+
+	#alertCaption {
+	  position: relative;
+	  float: right;
+	  margin-top: 18px;
+	  right: 26px;
+	}
+
+	.alertMiniText {
+	  position: absolute;
+	  margin-top: 32px;
+	}
+
+	.braceletSpotB {
+	  margin-top: -134px;
+	  margin-left: -156px;
+	}
+
+	.alertSpotD {
+	  margin-top: -244px;
+	  margin-left: 128px;
+	}
+
+	.captionLineB  {
+	  width: 1px;
+	  height: 290px;
+	  background-size: 1px 290px;
+	  margin-top: -110px;
+	  margin-left: -148px;
+	}
+
+	.captionLineD  {
+	  width: 1px;
+	  height: 476px;
+	  background-size: 1px 476px;
+
+	  margin-top: -220px;
+	  margin-left: 136px;
+	}
+
+	.captionLineE {
+	  width: 1px;
+	  height: 245px;
+	  background-size: 1px 245px;
+
+	  margin-top: 285px;
+	  margin-left: 136px;
+	}
+
+	.captionLineF {
+	  display: none;
+	}
+
+	/************** font changes ******************/
+	.subTitleText {
+	  font-size: 32px;
+	}
+
+	.iconTitleText  {
+	  font-size: 20px;
+	}
+
+	.iconDescription {
+	  font-size: 11px;
+	}
+
+	.braceletTitleText {
+	  font-size: 32px;
+	  margin-left: -40px;
+	  margin-top: 90px;
+	}
+
+	.braceletDescription {
+	  font-size: 11px;
+	  margin-left: -40px;
+	  margin-top: 25px;
+	}
+
+	.gatewayTitleText {
+	  font-size: 32px;
+	  margin-left: -40px;
+	  margin-top: 115px;
+	}
+
+	.gatewayDescription {
+	  font-size: 11px;
+	  margin-left: -40px;
+	  margin-top: 25px;
+	}
+
+	/************** bracelet area ******************/
+	#braceletMainPic {
+	  width: 460px;
+	  height: 510px;
+	  background-size: contain;
+	  
+	  position: relative;
+	  margin-top: 2px;
+	  margin-left: 0px;
+	}
+
+	/************** gateway area ******************/
+	#gatewayMainPic {
+	  width: 180px;
+	  height: 248px;
+	  background-size: contain;
+	  
+	  position: relative;
+	  margin: 0 auto;
+	  margin-top: 120px;
+	  margin-right: 130px;
+	}
+
+/*	#silvereyeLogo {
+	  width: 360px;
+	  height: 109px;
+	  background-size: contain;
+
+	  position: relative;
+	  float: right;
+	  margin-top: 65px;
+	  margin-right: 100px;
+	}*/
+/************** contact area ******************/
+
+	.contactTitleText {
+	  font-size: 32px;
+	  padding-top: 40px;
+	}
+
+	.contactDescription {
+	  font-size: 15px;
+	}
+	#contactUsMainBtn {
+	  width: 260px;
+	  height: 40px;
+	  background-size: 260px 40px;
+ 
+	  font-size: 18px;
+	  padding: 10px;
+	}
+	.mailNotice {
+	  font-size: 15px;
+	}
+
+	/* form open */
+	.formTitle {
+	  font-size: 32px;
+	}
+
+	.formBorder {
+	  width: 750px;
+	  height: 480px;
+	  background-size: 750px 480px;
+	  top: -80px;
+	}
+
+	.formSection  {
+	  width: 72%;
+	  height: 70%;
+	  background-size: 72% 70%;
+	  top: -22px;
+	}
+
+	#sendMailBtn {
+	  width: 140px;
+	  height: 34px;
+	  background-size: 140px 34px;
+	  
+	  font-size: 18px;
+	  right: 40px;
+	}
+
+	#cancelMailBtn {
+	  width: 140px;
+	  height: 34px;
+	  background-size: 140px 34px;
+	  
+	  font-size: 18px;
+	  left: 40px;
+	}
+
+	.formTextLeft {
+	  font-size: 13px;
+	  padding-top: 11%;
+	  padding-left: 24%;
+	}
+}
+
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+	
+}
