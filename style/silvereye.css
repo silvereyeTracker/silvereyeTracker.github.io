@@ -26,13 +26,11 @@ body {
   height: 70px;
   position: relative;
   top: 0px;
-
 }
 
 #sketchMapArea {
   width: 100%;
   height: 1350px;
-
 }
 
 #featureArea {
@@ -118,10 +116,7 @@ body {
 }
 
 .rowC {
-  width: 100%;
   height: 573px;
-
-  left: 0px;
 }
 
 .rowD {
@@ -174,7 +169,7 @@ body {
   position: relative;
   float: left;
   top: -2px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .columnRight {
@@ -183,7 +178,7 @@ body {
   position: relative;
   float: right;
   top: -2px;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 /************** header area ******************/
@@ -239,73 +234,56 @@ body {
   margin-top: 10px;
 }
 
-#floorPic {
-  background-image: url(../images/floorPic.png);
-  background-repeat: no-repeat;
-  width: 1366px;
-  height: 639px;
-  background-size: contain;
-  position: absolute;
-  left: 0px;
-  top: 300px;
-  z-index: -1000;
-}
-
 #map3DPic {
   background-image: url(../images/map3D.png);
   background-repeat: no-repeat;
-  width: 800px;
-  height: 595px;
+  width: 1080px;
+  height: 672px;
   background-size: contain;
 
   position: relative;
   margin-top: -50px;
   float: left;
-  left: -140px;
+  left: 0px;
 
   z-index: 3;
 }
 
 /* left column */
-#beaconInMap  {
-  width: 420px;
+#gatewayInMap  {
+  width: 434px;
   height: 350px;
 
   position: relative;
   float: left;
   margin-top: 100px;
-  left: 80px;
+  left: 110px;
 
   z-index: 5;
-
-  border: solid 1px yellow;
 }
 
-#beaconMiniPic {
-  background-image: url(../images/beaconMini.png);
+#gatewayMiniPic {
+  background-image: url(../images/gatewayMini.png);
   background-repeat: no-repeat;
-  width: 167px;
-  height: 172px;
+  width: 100px;
+  height: 136px;
   background-size: contain;
 
   position: relative;
   float: left;
   top: 0px;
-  left: 50px;
 
 }
 
 #gatewayCaption {
   position: relative;
-  left: 0px;
-  margin-top: 40px;
+  float: right;
+  right: 52px;
+  margin-top: 50px;
 
-  text-align: left;
-border: solid 1px green;
 }
 
 .captionTitle {
-  width: 100%;
   font-size: 34px;
   color: white;
   text-align: left;
@@ -348,9 +326,9 @@ border: solid 1px green;
 }
 
 .decoCircle1 {
-    display: block;
+     display: block;
 
-    width: 50px;
+      width: 50px;
     height: 50px;
     background-size: 50px 50px;
     border-radius: 25px;

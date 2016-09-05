@@ -463,9 +463,9 @@
 		left: 70px;
 	}
 
-	#beaconMiniPic {
+	#gatewayMiniPic {
 	  width: 90px;
-	  height: 93px;
+	  height: 123px;
 	  background-size: contain;
 	}
 
@@ -814,9 +814,9 @@
 	  left: 50px;
 	}
 
-	#beaconMiniPic {
+	#gatewayMiniPic {
 	  width: 90px;
-	  height: 93px;
+	  height: 123px;
 	  background-size: contain;
 	}
 
